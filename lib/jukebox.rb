@@ -14,7 +14,7 @@ def list (songs)
   idx = 0
   number = idx + 1
   
-  while ixd < songs.length do 
+  while idx < songs.length do 
     song = songs[idx]
     
     puts "#{number}. #{song}"
