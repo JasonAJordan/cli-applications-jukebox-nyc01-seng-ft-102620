@@ -25,7 +25,10 @@ end
 def play (songs)
   puts "Please enter a song name or number:"
   input = gets.strip
-  input_num = input.to_i
+  input_num = nil
+  if input.length < 3
+    input_num = input.to_i
+  end 
   indexx = nil 
   
 
