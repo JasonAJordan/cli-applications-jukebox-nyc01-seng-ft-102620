@@ -26,20 +26,20 @@ def play (songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   input_num = input.to_i
-  index = nil 
+  indexx = nil 
   
 
   songs.each_with_index { |song, idx|  
-    if song.index(input) != nil && index == nil
-      index = idx
+    if song.index(input) != nil && indexx == nil
+      inindexxdex = idx
     end 
   }
 
   
   if input_num <= songs.length + 1
     puts "Playing #{songs[input_num - 1]}"
-  elsif index != nil
-    puts "Playing #{songs[index]}"
+  elsif indexx != nil
+    puts "Playing #{songs[indexx]}"
   else 
     puts "Invalid input, please try again"
   end 
