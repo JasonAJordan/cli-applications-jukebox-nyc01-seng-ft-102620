@@ -49,7 +49,6 @@ def exit_jukebox
 end 
 
 def run 
-  
   running = true 
   
   while running == true do
