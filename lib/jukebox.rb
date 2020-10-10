@@ -37,7 +37,7 @@ def play (songs)
 
   if indexx != nil
     puts "Playing #{songs[indexx]}"
-  elsif input_num <= songs.length + 1
+  elsif input_num <= songs.length + 1 && input.length < 2
     puts "Playing #{songs[input_num - 1]}"
   else 
     puts "Invalid input, please try again"
