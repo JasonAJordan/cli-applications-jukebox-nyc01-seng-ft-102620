@@ -66,7 +66,7 @@ def run
       exit_jukebox
       running = false 
     end 
-  end 
+  } 
 end 
   
   
