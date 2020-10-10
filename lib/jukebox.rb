@@ -28,12 +28,13 @@ def play (songs)
   input_num = input.to_i
   index = nil 
   
+  while index == nil do 
   songs.each_with_index { |song, idx|  
     if song.index(input) != nil
       index = idx
-      puts "Playing #{songs[index]}"
     end 
   }
+  end 
   
   if input_num <= songs.length + 1
     puts "Playing #{songs[input_num - 1]}"
