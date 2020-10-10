@@ -34,8 +34,9 @@ def play (songs)
       index = idx
     end 
   }
+  index = 0 
   end 
-  
+  index = nil
   if input_num <= songs.length + 1
     puts "Playing #{songs[input_num - 1]}"
   elsif index != nil
