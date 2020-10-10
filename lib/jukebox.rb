@@ -14,7 +14,7 @@ def list (songs)
   idx = 0
   number = idx + 1
   
-  while idx < songs.length do 
+  songs.each_with_index do 
     song = songs[idx]
     
     puts "#{number}. #{song}"
