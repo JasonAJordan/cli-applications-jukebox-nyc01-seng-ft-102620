@@ -14,12 +14,12 @@ def list (songs)
   idx = 0
   number = idx + 1
   
-  songs.each_with_index do 
+  songs.each_with_index {  
     song = songs[idx]
     
     puts "#{number}. #{song}"
     idx += 1
-  end 
+  } 
   
 end 
 
