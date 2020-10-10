@@ -52,7 +52,10 @@ def run
   
   puts "Please enter a command:"
   command = gets.strip
+  running = true 
   
+  while running == true 
+    
   
 end 
   
