@@ -27,6 +27,9 @@ def play (songs)
   input = gets.strip
   input_num = input.to_i
   
+  songs.each do 
+    if 
+  
   if input_num <= songs.length + 1
     puts "Playing #{songs[input_num - 1]}"
   elsif songs.index(input) 
