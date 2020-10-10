@@ -23,7 +23,11 @@ def list (songs)
 end 
 
 def play 
+  puts "Please enter a song name or number:"
+  input = gets.strip
   
+  
+  if input 
 end 
 
 def exit 
