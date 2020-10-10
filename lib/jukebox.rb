@@ -15,10 +15,10 @@ def list (songs)
   number = idx + 1
   
   songs.each_with_index { |song, idx|}
-    song = songs[idx]
+    number = idx + 1
     
     puts "#{number}. #{song}"
-    idx += 1
+    
   } 
   
 end 
