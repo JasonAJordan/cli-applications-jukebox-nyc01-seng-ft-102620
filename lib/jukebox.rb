@@ -31,11 +31,12 @@ def play (songs)
   elsif songs.index(input) 
     puts "Playing #{songs.index(input)}"
   else 
-    puts 
+    puts "Invalid input, please try again"
+  end 
 end 
 
 def exit 
-  
+  puts "Goodbye"
 end 
 
 songs = [
