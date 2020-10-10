@@ -31,7 +31,6 @@ def play (songs)
   songs.each_with_index { |song, idx|  
     if song.index(input) != nil 
       songindex = idx
-      puts idx
     end 
   }
   
