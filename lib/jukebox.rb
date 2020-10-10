@@ -50,9 +50,9 @@ end
 
 def run 
   running = true 
-  
+  puts "Please enter a command:"
   while running == true do
-    puts "Please enter a command:"
+    
     command = gets.strip
     
     if command == "list" 
