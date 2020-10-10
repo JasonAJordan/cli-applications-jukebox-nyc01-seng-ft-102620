@@ -14,7 +14,7 @@ def list (songs)
   idx = 0
   number = idx + 1
   
-  songs.each_with_index { |song 
+  songs.each_with_index { |song, idx|}
     song = songs[idx]
     
     puts "#{number}. #{song}"
