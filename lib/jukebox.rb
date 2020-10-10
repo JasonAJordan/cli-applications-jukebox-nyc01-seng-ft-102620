@@ -18,7 +18,6 @@ def list (songs)
     number = idx + 1
     
     puts "#{number}. #{song}"
-    
   } 
   
 end 
