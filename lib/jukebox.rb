@@ -23,10 +23,11 @@ def list (songs)
 end 
 
 def play (songs)
-  puts "Please enter a song name or number:"
+  puts "Please enter a song name or nrubymber:"
   input = gets.strip
   
-  
+  if input.to_n <= songs.length + 1
+    puts "Playing #{"
   if songs.index(input) 
 end 
 
