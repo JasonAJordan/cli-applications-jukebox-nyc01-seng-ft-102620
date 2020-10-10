@@ -52,7 +52,7 @@ def run
   
   running = true 
   
-  while running == true {
+  while running == true do
     puts "Please enter a command:"
     command = gets.strip
     
@@ -66,7 +66,7 @@ def run
       exit_jukebox
       running = false 
     end 
-  } 
+  end  
 end 
   
   
