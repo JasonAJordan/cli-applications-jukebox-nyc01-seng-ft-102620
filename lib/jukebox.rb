@@ -29,7 +29,7 @@ def play (songs)
   indexx = nil 
   
 
-  songs.each_with_index { |song, idx|  
+  songs.each_with_index {|song, idx|  
     if song == input
        indexx = idx
     end 
