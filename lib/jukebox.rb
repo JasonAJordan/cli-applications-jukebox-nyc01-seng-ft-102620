@@ -54,9 +54,21 @@ def run
   command = gets.strip
   running = true 
   
-  while running == true 
+  while running == true {
+    puts "Please enter a command:"
+    command = gets.strip
     
-  
+    if command == "list" 
+      list 
+    elsif command == "play" 
+      play 
+    elsif command == "help"
+     help 
+    elsif command == "exit"
+      exit_jukebox
+      running = false 
+    end 
+  end 
 end 
   
   
